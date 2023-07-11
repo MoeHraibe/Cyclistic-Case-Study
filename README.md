@@ -254,7 +254,7 @@ glimpse(cyclistic_df_2)
 ---
 #### **Conduct a comprehensive analysis**
 
-* Click [here]() to view the R script and the summary of the analysis.
+* Click [here](https://github.com/MoeHraibe/Cyclistic-Case-Study/blob/master/02.%20Analysis/Cyclistic%20Analysis.r) to view the R script and the summary of the analysis.
 
 ## **Phase 5: Share**
 ---
@@ -292,7 +292,7 @@ After conducting my analysis, I reached the following conclusions:
 
 Here are my top 3 recommendations:
 
-1. Design riding packages specfic for docked bikes, with lower prices after certain mileage or duration.
+1. Design riding packages specific for docked bikes, with lower prices after certain mileage or duration.
 
 2. Introduces new promotions that target casual riders at their busiest times:
 
