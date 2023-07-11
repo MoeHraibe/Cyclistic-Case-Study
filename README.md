@@ -7,7 +7,7 @@
 As a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago, I am tasked alongside my team to understand how casual riders differ from annual members. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. From these insights, my team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve our recommendations.
 
 ### **About the Company: Cyclistic**
-In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 5,824 bicycles that are geotracked and locked into a network of 692 stations across Chicago. The bikes can be unlocked from one station and returned to any other station in the system anytime. Until now, Cyclistic’s marketing strategy relied on building general awareness and appealing to broad consumer segments. One approach that helped make these things possible was the flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships
+In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 5,824 bicycles that are tracked and locked into a network of 692 stations across Chicago. The bikes can be unlocked from one station and returned to any other station in the system at anytime. Until now, Cyclistic’s marketing strategy relied on building general awareness and appealing to broad consumer segments. One approach that helped make these things possible was the flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships
 
 ### **Scope of Work**
 
@@ -16,7 +16,7 @@ In 2016, Cyclistic launched a successful bike-share offering. Since then, the pr
 |Ask|1.	Discuss the project|<ul><li>Clearly state the business task</li><li>Define project goals and consider stakeholders’expectations</li></ul>|
 |Prepare|2. Prepare data for exploration|<ul><li>Address licensing, privacy, security, and accessibility issues.</li><li>Confirm data integrity</li><li>Identify how the data will help us answer our question</li><li>Check for any problems with the data</li><li>Sort and filter the data</li></ul>|
 |Process|3. Process data for analysis|<ul><li>Apply the right data tools for processing and analysis</li><li>Clean the data to ensure the data integrity</li></ul>|
-|Analyze|4. Conduct a comprehensive analysis|<ul><li>Aggregate data and perform calculations and in order to identify trends and relationships
+|Analyze|4. Conduct a comprehensive analysis|<ul><li>Aggregate data and perform calculations in order to identify trends and relationships
 |Share|5. Share key findings with stakeholders|<ul><li>Create compelling visualizations and an effective presentation that answer the original business problem|
 |Act|6.	Act on key findings|<ul><li>Provide recommendations to the executive team based on the conducted analysis.|
 
@@ -26,36 +26,36 @@ In 2016, Cyclistic launched a successful bike-share offering. Since then, the pr
 #### **Discuss the project**
 ##### **Business task:**
 
-Analyze how causal riders differ from annual members and then provide data-driven recommendations on how to convert causal riders to annual members.
+Analyze how causal riders differ from annual members and then provide data-driven recommendations on how to convert casual riders to annual members.
 
 
 ##### **Stakeholders and their expectations:**
 
 |Stakeholders|Expectations|Goals|
 |---|---|---|
-|Cyclistic Executive Team|Receive clear, compelling, and straightforward insights and visualizations that will inform their data-driven decisions towards the new marketing strategy|Approve or decline the recommendations provided by marketing analytics team.|
+|Cyclistic Executive Team|Receive clear, compelling, and straightforward insights and visualizations that will inform their data-driven decisions towards the new marketing strategy|Approve or decline the recommendations provided by the marketing analytics team.|
 |Lily Moreno, Director of Marketing|Receive evidence that will either prove her theory right or wrong|Convert casual riders to annual members therefore increasing the company’s annual profits|
-|Cyclistic Marketing Analytics Team|Reveal differences between causal riders and annual members|Provide data-driven recommendations on how to convert causal riders to annual members|
+|Cyclistic Marketing Analytics Team|Reveal differences between causal riders and annual members|Provide data-driven recommendations on how to convert casual riders to annual members|
 
 
 ## **Phase 2: Prepare**
 ---
 #### **Prepare data for exploration**
 
-The data for this case study is provided by Motivate International Inc. via this [link](https://divvy-tripdata.s3.amazonaws.com/index.html). I’ll be using the last 12 months of Cyclistic data for my analysis, which cover the period from March 2022 till February 2023.
+The data for this case study is provided by Motivate International Inc. via this [link](https://divvy-tripdata.s3.amazonaws.com/index.html). I’ll be using the last 12 months of Cyclistic data for my analysis, which covers the period from March 2022 to February 2023.
 
 ##### **Data Source:**
 
-The data is public and has been made available by Motivate international Inc. to anyone via this [link](https://divvy-tripdata.s3.amazonaws.com/index.html) under this [license](https://ride.divvybikes.com/data-license-agreement).
+The data is public and has been made available by Motivate International Inc. to anyone via this [link](https://divvy-tripdata.s3.amazonaws.com/index.html) under this [license](https://ride.divvybikes.com/data-license-agreement).
 
 Note that the data has a different name because Cyclistic is a fictional company.
 
 ##### **Data Organization:**
 
-For my analysis, I’ll be using Cyclistic’s data from the last 12 months, which covers the period from March 2022 till February 2023. The data is organized in months; were each month’s data is a separate comma-separated value file. Each CSV file consists of 13 columns and thousands of rows. Each row represents a unique bike trip under the bike-share program with its different features. The features consist of a unique hashed ride Id number which serves as the primary key of the table, the type of the bike used (classic, docked, electric), the date and time each ride starts and ends, the name and Id of the starting and ending station, the type of customer (casual rider or annual member), and the starting and ending latitude and longitude of each ride.
+For my analysis, I’ll be using Cyclistic’s data from the last 12 months, which covers the period from March 2022 to February 2023. The data is organized in months; where each month’s data is a separate comma-separated value file. Each CSV file consists of 13 columns and thousands of rows. Each row represents a unique bike trip under the bike-share program with its different features. The features consist of a unique hashed ride Id number which serves as the primary key of the table, the type of the bike used (classic, docked, electric), the date and time each ride starts and ends, the name and Id of the starting and ending station, the type of customer (casual rider or annual member), and the starting and ending latitude and longitude of each ride.
 
 ##### **Data Quality:**
-I used the ROCCC aproach to determine the quality of the data.
+I used the ROCCC approach to determine the quality of the data.
 
 * **R**eliable: 
     
@@ -70,7 +70,7 @@ I used the ROCCC aproach to determine the quality of the data.
     The data is first-party data and it is collected by the City of Chicago using its own resources and was made available to the public.
 * **C**omprehensive:
     
-    The provided datasets contain all the needed information that allow us to conduct our analysis. 
+    The provided datasets contain all the needed information that allows us to conduct our analysis. 
 * **C**urrent: 
     
     The data we are using is up-to-date (as of the time this study was conducted).
@@ -106,7 +106,7 @@ Discover patterns and useful insights on how casual riders and annual members di
 2. Setting up my environment:
 
 ```{r}
-library(tidyverse)  # Data cleaning, transformation and manipulation
+library(tidyverse)  # Data cleaning, transformation, and manipulation
 library(lubridate)
 library(hms)
 library(dplyr)
@@ -118,7 +118,7 @@ library(DescTools)
 3. Reading and combining all 12 datasets
 
 ```{r}
-# Read all past 12 months data
+# Read all past 12 months' data
 
 mar_2022_df <- read.csv("202203-divvy-tripdata.csv")
 apr_2022_df <- read.csv("202204-divvy-tripdata.csv")
@@ -174,7 +174,7 @@ cyclistic_df_2$time <- format(cyclistic_df_2$started_at, "%H:%M:%S")
 cyclistic_df_2$time <- as_hms(cyclistic_df_2$time)
 cyclistic_df_2$hour <- hour(cyclistic_df_2$time)
 
-# Create a column for differnet seasons
+# Create a column for different seasons
 
 cyclistic_df_2 <- cyclistic_df_2  %>%
 mutate(season = case_when(month_of_year == "03" ~ "Spring",
@@ -219,7 +219,7 @@ hour == "22" ~ "Evening",
 hour == "23" ~ "Evening"))
 ```
 
-* Removed uneeded columns
+* Removed unneeded columns
 
 ```{r}
 cyclistic_df_2 <- cyclistic_df_2  %>%
@@ -292,7 +292,7 @@ After conducting my analysis, I reached the following conclusions:
 
 Here are my top 3 recommendations:
 
-1. Design riding packages specific for docked bikes, with lower prices after certain mileage or duration.
+1. Design riding packages specific for docked bikes, with lower prices after particular mileage or duration.
 
 2. Introduces new promotions that target casual riders at their busiest times:
 
