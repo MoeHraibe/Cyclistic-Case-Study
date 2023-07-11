@@ -262,7 +262,7 @@ glimpse(cyclistic_df_2)
 
 Data visualizations and dashboard:
 
-I created my visuals and dashboard using Tableau.
+I created my visualizations and dashboard using Tableau.
 
 * Click [here](https://public.tableau.com/app/profile/mohamad.ali.hraibe/viz/Cyclistic-Case-Study/Cyclistic-Case-Study) to view them.
 
